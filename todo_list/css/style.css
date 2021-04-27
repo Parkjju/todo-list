@@ -1,0 +1,28 @@
+@import "reset.css";
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+/* main css */
+body {
+    font-family: "Poppins", sans-serif;
+}
+.background {
+    height: 400px;
+    width: 500px;
+    position: relative;
+}
+
+.background img {
+    position: absolute;
+    z-index: -1;
+}
+
+.background--date__value {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    left: 20px;
+    top: 240px;
+}
